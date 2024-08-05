@@ -4,7 +4,7 @@ export default function Stats(){
         <div id="stats">
         <div>
           <h1>20+</h1>
-          <p>Proffesional</p>
+          <p>Professional</p>
         </div>
         <div>
           <h1>10+</h1>
