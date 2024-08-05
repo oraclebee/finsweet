@@ -26,9 +26,10 @@ const SmallResolutionWarning = () => {
         <div style={{ 
           position: 'fixed', 
           top: 0, 
-          width: '100%', 
-          backgroundColor: 'red', 
-          color: 'white', 
+          width: '100vw', 
+          height: '100vh',
+          backgroundColor: '#ffffff', 
+          color: 'black', 
           textAlign: 'center', 
           padding: '10px', 
           zIndex: 1000 
