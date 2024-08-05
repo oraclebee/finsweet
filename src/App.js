@@ -7,10 +7,12 @@ import Service from "./pages/Service";
 import Blog from "./pages/Blog";
 import Register from "./pages/Register";
 import Login from "./pages/Login";
+import SmallResolutionWarning from "./Components/Warning";
 
 function App() {
   return (
     <div className="App">
+      <SmallResolutionWarning />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
